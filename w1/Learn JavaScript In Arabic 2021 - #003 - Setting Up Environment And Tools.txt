@@ -1,0 +1,7 @@
+setting Enviroment
+
+check last update
+
+
+<script></script>  tag  in html  page to type java code at html page
+<script src="main.js"></script> to link outer file contains java code

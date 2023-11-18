@@ -1,0 +1,6 @@
+the right place to type java  code
+
+
+ the best practicle to type scrpit file in html file is in the end of the file  to avoid problems in affect on elements   
+
+put you can out script code   in the  begining of the file  and using events code  when you type script code  

@@ -1,0 +1,6 @@
+to make variable and print it:
+var myname ="mohamed";
+console.log("hello " + myname);
+     or
+console.log(`hello ${myname} `)
+

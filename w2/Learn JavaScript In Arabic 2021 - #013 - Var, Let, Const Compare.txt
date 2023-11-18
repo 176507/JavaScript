@@ -1,0 +1,16 @@
+//  var myName="moahmed";
+
+let myName="mohamed";
+
+const myName="mo"
+
+
+const& let make validation on redeclare  variable  
+var no validation on redeclare  variable 
+
+var: undefinded error 
+const& let :definded error
+
+
+var: put variable as object in winow  and can access on it 
+const& let : do not put varable in winow 

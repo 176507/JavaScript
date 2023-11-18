@@ -1,0 +1,15 @@
+String Syntax + Character Escape Sequences
+  \ Escape + Line Continue
+
+like:
+
+console.log("mohamed & \"Olaa\"");
+
+ we can use \  to type text on multi lines   
+like:
+console.log("mohamed\
+samir")
+
+we can usr \n to make every word in the text on single line  
+like::
+ console.log("mohamed\n samir\n mohmaed\n omar");

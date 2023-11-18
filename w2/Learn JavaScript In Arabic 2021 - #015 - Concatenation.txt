@@ -1,0 +1,13 @@
+ Concatenation: to link between to string variable   
+
+like  type  on page  :i love Olaa
+
+we make it on java  page  :
+
+let a="i love";
+let c="Olaa";
+document.write(a + " " + c);
+
+  or we can make it on console 
+like:
+console.log(a, c);

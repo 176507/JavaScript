@@ -1,0 +1,31 @@
+to print error message on th log:
+console.error("log")
+
+to make arry on the console:
+console.table(["Mohame","Ahmed","sayed"]);
+
+to make more than group:
+console.group("Group 1")
+console.log("message One message two");
+console.group("Child Group");
+console.log("message One message two");
+console.group("Grant Child Group ");
+console.log("message One message two")
+console.groupEnd();
+console.groupEnd();
+console.groupEnd();
+console.group("Group 2");
+console.log("message One message two")	
+
+
+
+
+
+
+
+ to make style in the messgae on the console:" you must type "%c"before the words that you want to apply  style on it
+console.log("Layan &%c mostafa","color: red ; font-size:40px");
+
+to make more than one style  type "%c" :
+
+console.log("   %c Layan & %c mostafa","color: red ; font-size:40px" ,"color: blue ; font-size:40px");

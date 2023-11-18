@@ -1,0 +1,2 @@
+ how to use console   
+how to open file by using live server   and  what is the live server means

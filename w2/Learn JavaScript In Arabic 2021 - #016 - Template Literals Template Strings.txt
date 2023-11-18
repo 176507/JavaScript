@@ -1,0 +1,30 @@
+ Template Literals (Template Strings)
+to make conctiation  with $ :
+
+let a="we love";
+let b="JavaScript";
+let c="and";
+let d="programming";
+
+console.log(`${a} ${b} ${c} ${d}`);
+
+to type on multi line  :
+console.log(`${a} ${b} ${c} 
+${d}`);
+
+we can make  formila  
+console.log(`${a} " " \\ ${b} ${c} ${10 * 50}
+${d} ${10 * 50}`);
+
+
+
+Examble   to make HTML  in javascript:
+let title="Mohamed samir";
+let des="Mohamed samir wep school";
+let markup=`<div class="card">
+<div class=chile>
+<h2>${title}</h2>
+<p>${des}</p>
+</div>
+</div>`
+document.write(markup);

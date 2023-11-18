@@ -1,0 +1,7 @@
+to declear variable:
+ syntax (keyaword,variable name,assignment)
+like:
+var user= "mohamed";
+ to use varaiable:
+console.log(user);
+var age=38;

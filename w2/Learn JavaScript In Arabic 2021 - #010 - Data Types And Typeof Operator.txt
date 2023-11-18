@@ -1,0 +1,23 @@
+
+type of variable:
+
+String  
+mumber
+arrty>=object
+boolean
+Undefined
+object
+
+
+ to know th  type  of variabl :typeoff
+ like:
+console.log( typeof"mohamed samir"):: string
+console.log( typeof 5000);::number
+console.log( typeof 5000.99);::number
+console.log(typeof [5,10,15]);:: arrty>=object
+console.log(typeof ["om" , "ah" ,"al"]);:: arrty>=object
+console.log(typeof {name:"mohame",age:"30",countray:"EG"});object
+console.log(typeof true);  :boolean
+console.log(typeof false);:boolean
+console.log(typeof undefined);::Undefined
+console.log(typeof null);::object

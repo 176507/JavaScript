@@ -1,0 +1,18 @@
+ to close window:
+winow.close() 
+
+to make message when open the HTML page :
+window.alert("hellow from js file");
+
+ to write HTML element in the HTML page :
+document.write("<h1>Mohamed samir</h1>");
+
+to make style to the element:
+document.querySelector("h1").style.color='blue';
+document.querySelector("h1").style.fontSize='80px';
+document.querySelector("h1").style.fontWeight='bold';
+document.querySelector("h1").style.textAlign='center';
+document.querySelector("h1").style.fontFamily='arial';
+
+ to print message on the console:
+console.log("hello olaa i love you");
