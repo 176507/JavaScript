@@ -1,0 +1,10 @@
+ to make  div in html  read   variable from java page  
+
+in HTML page type :
+
+ <div id="elzero">elzero</div>
+    <script src="master.js"></script>
+
+ in java  page typy:
+console.log(elzero.innerHTML); // object
+console.log(typeof elzero); // object
