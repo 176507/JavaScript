@@ -1,0 +1,36 @@
+console.log(2+2);
+console.log(2+"2");//concatinate
+console.log(2+"mohamed");//concatinate
+
+console.log(10-4);
+console.log (10-"mohamed");//variable NAN
+console.log(typeof NaN);//number variable
+console.log (10-"6");//ordanry operation 4
+
+console.log(4*4);
+console.log(4*-4);
+
+console.log(20/5);
+console.log(20/3);
+
+console.log(10%2); //the rest of diviation 0
+console.log(11%2);//the rest of diviation 1
+
+
+//post increament :means to increase number  and print it
+let num=1;
+console.log(num++)
+console.log(num);
+
+//pre post increament :means to pint number and increase it
+console.log(++num);
+
+
+//post Decremeant :means to decrease number  and print it
+let num=1;
+console.log(num--)
+console.log(num);
+
+
+//pre post Decremeant :means to pint number and decrease it
+console.log(--num);

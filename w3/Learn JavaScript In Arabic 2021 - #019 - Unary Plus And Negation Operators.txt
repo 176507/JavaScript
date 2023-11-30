@@ -1,0 +1,45 @@
+/*
+  - + Unary Plus [Return Number If Its Not Number]
+  - - Unary Negation [Return Number If Its Not Number + Negates It]
+  Tests
+  - Normal Number
+  - String Number
+  - String Negative Number
+  - String Text
+  - Float
+  - Hexadecimal Numeral System => 0xFF
+  - null
+  - false
+  - true
+*/
+
+
+// + Unary Plus [Return Number]
+console.log(+100);
+
+// + Unary Plus [Return Number If Its Not Number]
+//String Number
+console.log(+"100"); //100
+console.log(+"-100"); //-100
+console.log(+"mohamed"); //NAN
+
+console.log(+"15.5"); //15.5
+console.log(+null) //0
+console.log(+false) //0
+console.log(+true) //1
+
+ - - Unary Negation [Return Number If Its Not Number + Negates It]
+// console.log(-100); //-100
+// console.log(-"100"); //-100
+// console.log(-"-100"); //100
+// console.log(-"mohamed"); //NAN
+// console.log(-15.5) //-15.5
+// console.log(-"15.5") //-15.5
+// console.log(-"mohamed") //NAN
+// console.log(-null) //-0
+// console.log(-false) //-0
+// console.log(-true) //-1
+
+//number opreator to return number  
+console.log(Number(100));//100
+console.log(Number(-100));//-100

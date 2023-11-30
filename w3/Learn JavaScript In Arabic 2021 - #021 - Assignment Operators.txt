@@ -1,0 +1,13 @@
+
+/*
+  Assignment Operators
+*/
+
+
+let a=10;
+a=a+20; // to add value  to the variable (sumation)
+a=a+10;
+a+=100;// to add value  to the variable (sumation)= a=a+100
+a-=50; //a=a-100
+a/=50; //a=a/100
+a=a+10;
