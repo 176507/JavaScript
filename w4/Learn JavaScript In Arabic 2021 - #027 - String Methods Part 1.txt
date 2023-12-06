@@ -1,0 +1,25 @@
+/*
+  String Methods
+  - Access With Index
+  - Access With charAt()
+  - length
+  - trim()
+  - toUpperCase()
+  - toLowerCase()
+  - Chain Methods
+*/
+
+
+
+let TheName="  Ahmed  "
+console.log(TheName)
+console.log(TheName[1]);// to get bostion
+console.log(TheName[5])//to get undifind
+console.log(TheName.charAt(1));// to get bostion
+console.log(TheName.charAt(5))//  
+console.log(TheName.length)// to count the elemets from 1
+console.log(TheName.trim())// to remove space
+console.log(TheName.toUpperCase()); // to get uppercase letter 
+console.log(TheName.toLowerCase()); // to get lower letter
+console.log(TheName.trim().charAt(2).toUpperCase());// chain
+

@@ -1,0 +1,11 @@
+console.log((100.5).toString());// to get string from object ""
+console.log(100..toString());
+console.log(100.55555555.toFixed(2));// t control in the number of digits after dicimal .
+console.log(parseInt("100 mohamed"));// to get  number from object even have word
+console.log(Number("100 mohamed"));//to get  number from object put give NAN if have word
+console.log(+"100 mohamed");//to get  number from object put give NAN if have word
+console.log(parseFloat("100.500 mohamed"));// to get number and digits after dicimal from object even have word ;
+console.log(Number.isInteger("100"));// to get false o r true value about if the digit is integer digit and without dicimal
+console.log(Number.isInteger(100));// to get false o r true value about if the digit is integer digit and without dicimal
+console.log(Number.isInteger(100.7));// to get false o r true value about if the digit is integer digit and without dicimal
+console.log(Number.isNaN("mohamed" /20));// to   get  if nan  or not 

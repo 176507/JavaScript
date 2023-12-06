@@ -1,0 +1,30 @@
+/*
+  String Methods
+  - substring(Start [Mand], End [Opt] Not Including End)
+  --- Start > End Will Swap
+  --- Start < 0 It Start From 0
+  --- Use Length To Get Last Character
+  - substr(Start [Mand], Characters To Extract)
+  --- Start >= Length = ""
+  --- Negative Start From End
+  - includes(Value [Mand], Start [Opt] Default 0) [ES6]
+  - startsWith(Value [Mand], Start [Opt] Default 0) [ES6]
+  - endsWith(Value [Mand], Length [Opt] Default Full Length) [ES6]
+*/
+
+
+
+let a="Elzero Web School";
+console.log(a.substring(2,6));// to cut  string from string variable  
+console.log(a.substring(6,2));// if you type the larger number first  console will sweep it
+console.log(a.substring(-10,6));// if you strt from any negative value console will strat from zero 
+console.log(a.substring(17-5));
+console.log(a.substring(a.length-5,a.length-3));
+console.log(a.substr(0,6));// to cut bt number of letters  a it works bt length
+console.log(a.substr(17));//  if strat=> length  it will give nothing    
+console.log(a.substr(-3));
+console.log(a.substr(-5,2));
+console.log(a.includes("Web"));// to search  about speceifif word
+console.log(a.includes("Web",8));//to search  about speceifif word  from starting point 
+console.log(a.startsWith("z",2));//  to search the strat   by the length   
+console.log(a.endsWith("o",6));  //to search the end   by the length

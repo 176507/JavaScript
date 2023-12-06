@@ -1,0 +1,11 @@
+
+
+console.log(Math.round(99.2));// if dicimila digit less than 5 the digit before dicimal will have no change
+console.log(Math.round(99.5));//if dicimila digit more than 5 the digit before dicimal will be increased
+console.log(Math.ceil(99.5))// it will move digit before dicimal to increase it
+console.log(Math.floor(99.5))//no chage in the digit before dicimal
+console.log(Math.min(100,20,-10,-5)); // to get the lowest number
+console.log(Math.max(100,20,-10,-5));// to get the largest number
+console.log(Math.pow(2,2));//=console.log(2**2);
+console.log(Math.random()); //random number 
+console.log(Math.trunc(99.5));// to get the integer number without decimal 
