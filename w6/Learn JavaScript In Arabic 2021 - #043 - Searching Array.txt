@@ -1,0 +1,16 @@
+/*
+  Arrays Methods [Search]
+  - indexOf(Search Element, From Index [Opt])
+  - lastIndexOf(Search Element, From Index [Opt])
+  - includes(valueToFind, fromIndex [Opt]) [ES7]
+*/
+
+
+
+console.log(Myfriend);
+console.log(Myfriend.indexOf("Mohamed"));// to search about specific element in the arry  from start array
+console.log(Myfriend.indexOf("Mohamed",2));//to search about specific element in the arry and start search from specefic index
+console.log(Myfriend.lastIndexOf("Mohamed"));//to search about specific element in the arry  from End array and count the searched element index from the begining
+console.log(Myfriend.lastIndexOf("Mohamed",-2));//to search about specific element in the arry  from End array and start search from end  at index -2 and count the searched element index from the begining
+console.log(Myfriend.includes("Mohamed"));//to search about speceific elent in tha array from the begining of the array  and give true/false value 
+console.log(Myfriend.includes("Mohamed",3));//to search about speceific elent in tha array from the speceific element of the array  and give true/false value 

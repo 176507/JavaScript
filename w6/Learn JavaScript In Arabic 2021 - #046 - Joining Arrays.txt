@@ -1,0 +1,19 @@
+/*
+  Arrays Methods [Joining]
+  - concat(array, array) => Return A New Array
+  - join(Separator)
+*/
+
+
+
+let myFriends = ["Ahmed", "Sayed", "Ali", "Osama", "Gamal", "Ameer"];
+let myNewFriends = ["Samar", "Sameh"];
+let schoolFriends = ["Haytham", "Shady"];
+
+let MyAllfriends=myFriends.concat(myNewFriends,schoolFriends,"Nabil",["lobna","Omnia"]);//  to make conncat  more than one array and you can add items and array
+console.log(MyAllfriends);
+
+console.log(MyAllfriends.join())// to join all elements  in the array in the string   and you can type sparitor    
+console.log(MyAllfriends.join(""))//to join all elements  in the array in the string   without separitor
+console.log(MyAllfriends.join("@ "))  ;//to typ separitor
+console.log(typeof(MyAllfriends.join("|")));

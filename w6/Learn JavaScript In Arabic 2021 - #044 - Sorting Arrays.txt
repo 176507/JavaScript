@@ -1,0 +1,15 @@
+/*
+  Arrays Methods [Sort]
+  - sort(Function [Opt])
+  - reverse
+*/
+
+
+
+let MyFriend =[10 ,"Sayed","Mohamed","90",9000,100,20,"10",-20,-10];
+console.log(MyFriend);
+
+console.log(MyFriend.sort());//to make sort to the array
+console.log(MyFriend.reverse());//to make reverse to the sorting array
+
+console.log(MyFriend.sort().reverse());// make sort and reverse  in one chain

@@ -1,0 +1,15 @@
+/*
+  Array Methods
+  - Length
+*/
+
+// Index Start From 0 [ 0, 1, 2, 3, 4 ]
+
+
+
+console.log(Myfriend.length);// to get the length of the array
+Myfriend[4]="Omar";//  to add  element to the array
+Myfriend[Myfriend.length]="Omnia";//  to add  element to the array Dinamic method
+Myfriend[Myfriend.length-1]="Om";// to add  element to the array Dinamic method
+
+Myfriend.length=3;// to control in the length of the array

@@ -1,0 +1,16 @@
+/*
+  Arrays Methods [Adding And Removing]
+  - unshift("", "") Add Element To The First
+  - push("", "") Add Element To The End
+  - shift() Remove First Element From Array
+  - pop() Remove Last Element From Array
+*/
+
+
+Myfriend.unshift("Ahmed","ola","Mahmoud");// to add element in the start of the array  
+
+Myfriend.push("Eman","Omnia");//to add element in the End of the array 
+
+
+let first=Myfriend.shift();// to remove first element in the array and put the removed element in variable 
+let last=Myfriend.pop();//to remove last  element in the array and put the removed element in variable 

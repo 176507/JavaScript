@@ -1,0 +1,31 @@
+
+
+/*
+  Arrays
+  - Create Arrays [Two Methods] new Array() + []
+  - Access Arrays Elements
+  - Nested Arrays
+  - Change Arrays Elements
+  - Check For Array Array.isArray(arr);
+*/
+
+
+
+
+
+
+
+let Myfriend=["Ahmed","mohamed","ola","omnia",["Omar","Fathi"]]// to make array &nasted array
+console.log(`Hello ${Myfriend[3]}`);//to acces on element in arrya
+console.log(`${Myfriend[3][2]}`)//to access on sub element from element in arry
+console.log(`${Myfriend[1][0]}`);//to access on sub element from element in arry
+console.log(`hello ${Myfriend[4][0]}`)//;to access on sub element from element in arry
+console.log(Myfriend)
+Myfriend[1]="Ali";// to edit elemet in the arry  make element subtituate arry
+console.log(Myfriend)
+Myfriend[4]="Samah";// to edit elemet in the arry  make element subtituate arry
+console.log(Myfriend)
+Myfriend[4]=["Lobna","kamal"];// to edit elemet in the arry  make array subtituate element
+console.log(Myfriend)
+console.log(typeof(Myfriend));// to find object
+console.log(Array.isArray(Myfriend));// function of search abount array  true or false
