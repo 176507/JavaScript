@@ -1,0 +1,15 @@
+/*
+  Logical Operators
+  - ! Not
+  - && And
+  - || Or
+*/
+
+
+
+
+
+// console.log(!(10=="10"));//  to  make the true value false
+// console.log(10=="10"&& 10>8&&10>=10);// and  all condation must  be found
+// console.log(10=="10"&& 10>8&&10>=50);// and  all condation must  be found
+// console.log(10=="10"||10>50||10>20);//any condation can by found only one just

@@ -1,0 +1,36 @@
+/*
+  Control Flow
+  - if
+  - else if
+  - else
+
+  if (Condition) {
+    // Block Of Code
+  }
+
+*/
+
+
+let price = 100;
+let discount = false;
+let discountAmount = 30;
+let country = "england";
+
+
+if(discount===true){
+  price-=discountAmount;
+ 
+  }
+  else if(country==="KSA"){
+    price-=discountAmount
+  }
+  else if(country==="egypt"){
+    price-=50;
+
+  }
+  else{
+    price-=10;
+  }
+
+
+console.log(price);

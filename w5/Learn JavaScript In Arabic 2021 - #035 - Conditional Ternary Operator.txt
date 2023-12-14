@@ -1,0 +1,24 @@
+/*
+  Conditional (Ternary) Operator
+*/
+
+let theName = "Mohamed";
+let theGender = "Male";
+let theAge = 69;
+
+if (theGender==="Male"){
+  console.log("Mr")
+}else{
+  console.log("Female")
+}
+ 
+// condation ? if true  flase
+
+theGender==="Male" ? console.log("Mr") : console.log("Female"); 
+
+let result= theGender==="Male" ? "Mr" : "Female";
+document.write(result);
+console.log(theGender==="Male" ? "Mr" : "Female");
+console.log(`${theGender==="Male"?"Hello Mr :" : "Hello Mrs:"}${theName}`)
+
+theAge<20 ? console.log(20): theAge>20 && theAge<60? console.log("20 tp 60") : theAge>60&&theAge<70 ? console.log("60 to 70") : console.log("unnown");
