@@ -11,6 +11,7 @@
 */
 
 
+// let myFriends = ["Ahmed", "Sayed", "Ali", "Osama", "Gamal", "Ameer"];
 
 // console.log(myFriends.slice());//  to cut array  default start index 0  and default end the end of array
 // console.log(myFriends.slice(1));//to  cut array  from index 0  the typed index not include  

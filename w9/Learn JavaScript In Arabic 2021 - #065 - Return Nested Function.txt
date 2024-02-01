@@ -1,0 +1,47 @@
+/*
+  Function
+  - Function Inside Function
+  - Return Function
+*/
+
+
+
+
+Examble One  for nested function :
+function sayhello(fname,lname){
+  let message=`hello`
+  function concat(){
+    message=`${message} ${fname} ${lname}`
+  }
+  concat();
+  return message
+}
+console.log(sayhello("Mohamed","Samir"))
+
+
+Examble Two  for nested function :
+
+function sayhello(fname,lname){
+  let message=`hello`;
+  function concat(){
+    return  `${message} ${fname} ${lname}`
+  }
+  return concat();
+}
+console.log(sayhello("Mohames","Samir"))
+
+
+
+Examble Three  for nested function :
+
+function sayhello(fname,lname){
+  let message=`hello`
+  function concat(){
+    function gitfullname(){
+      return `${fname} ${lname}`
+    }
+    return `${message} ${gitfullname()}`
+  }
+  return concat();
+}
+console.log(sayhello("Mohamed","Samir"))

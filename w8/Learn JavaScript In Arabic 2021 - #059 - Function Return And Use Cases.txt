@@ -1,0 +1,39 @@
+
+
+/*
+  Function
+  - Return
+  - Automatic Semicolon Insertion [No Line Terminator Allowed]
+  - Interrupting
+*/
+
+
+
+
+function SayHello(username){
+  return ` Hello ${username}`
+
+}
+let ret=SayHello("Osama");
+console.log(ret)
+
+
+
+function calc(num1,num2){
+  return num1+num2;
+}
+let result=calc(10,20);
+console.log(result+100)
+
+
+
+function genterate(start,end){
+  for(let i=start;i<=end;i++ ){
+    if(i===15){
+      return;
+    }
+    console.log(i)
+  }
+}
+
+genterate(10,20);

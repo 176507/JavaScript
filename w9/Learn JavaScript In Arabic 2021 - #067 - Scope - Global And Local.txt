@@ -1,0 +1,26 @@
+
+
+
+/*
+  Scope
+  - Global And Local Scope
+*/
+
+
+
+
+   function  read  from  varible  inside function before global  varibaled 
+  var a=1;
+  let b=2;
+  function Shwotext () {
+    var a=10;
+    let b=20;
+    console.log(` from  function local ${a}`)
+    console.log(` from  function  local  ${b}`)
+   
+
+  }
+  Shwotext()
+
+  console.log(` from Global ${a}`)
+  console.log(` from Global ${b}`)

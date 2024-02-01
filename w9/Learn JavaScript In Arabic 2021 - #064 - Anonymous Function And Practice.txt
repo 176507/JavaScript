@@ -1,0 +1,36 @@
+
+/*
+  Function
+  - Anonymous Function
+  - Calling Named Function vs Anonymous Function
+  - Argument To Other Function
+  - Task Without Name
+  - SetTimeout
+*/
+
+
+
+
+
+ to make function in variable:
+when make function in variable it must be without name 
+ let calcutlator =function(num1,num2){
+  return num1+num2;
+ }
+ console.log(calcutlator(20,10))
+
+Exables for using anonymous Function:
+
+
+in HTML page :
+ <button id="Show">Show</button>
+
+in java page:
+document.getElementById("Show").onclick=function(){
+  console.log("Show")
+}
+
+  Other Examble:
+ setTimeout(function(){
+  console.log("hi");
+ }, 2000);

@@ -1,0 +1,32 @@
+/*
+  Loop
+  - While
+*/
+
+
+
+//  to make while loop  anb Break it
+let index=0;
+while( index<10){
+  console.log(index);
+  index++
+  if(index===3){
+    break;
+  }
+}
+
+
+
+// Examble on while loop
+
+// let products = ["Keyboard", "Mouse", "Pen", "Pad", "Monitor", "iPhone"];
+
+
+
+// let index = 0;
+
+// while(index<products.length){
+//   console.log(products[index]);
+//   index++;
+
+// }

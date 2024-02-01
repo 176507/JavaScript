@@ -1,0 +1,30 @@
+function ShowInfo (US="UN" , ag="UN" , rt=0 , show="yes", ...sk){
+ 
+  document.write(`<div>
+  <h2> Welcome: ${US}</h2>
+    <p> Age :${ag}</p>
+    <p> Hour Rate :$${rt}</p>
+
+  </div>`)
+  if(show==="yes"){
+    
+    if (sk.length>0){
+      // document.write(`<p>Skills:${sk.join(" | ")}</p>`)
+      document.write(`<h2>Skills:</h2>`)  
+      for (let i=0;i<sk.length;i++){
+        document.write(`${sk[i]}</p>`)
+
+      }
+      
+    }
+    else{
+      document.write(`<p>Skills: No Skills</p>`)
+
+    }
+  }
+  else{
+    document.write(`<p>No Skills to show</p>`)
+   
+  }
+
+}

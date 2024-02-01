@@ -1,0 +1,19 @@
+/*
+  Loop For Advanced Example
+*/
+
+
+let products = ["Keyboard", "Mouse", "Pen", "Pad", "Monitor", "iPhone"];
+let i=0;
+
+ for(;;){
+  console.log(products[i])
+  i++
+  if(i===products.length){
+    break;
+  }
+ }
+ //  you can type varivale i ou of the loop and leave ; 
+ // you can type incremeant inside loop after print  
+ //you can  type condation in if statement inside loop
+ //you can inrease increamnet by  2   or any number 

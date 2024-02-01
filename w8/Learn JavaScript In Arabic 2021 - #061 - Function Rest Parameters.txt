@@ -1,0 +1,29 @@
+
+
+
+/*
+  Function
+  - Rest Parameters
+  - Only One Allowed
+  - Must Be Last Element
+*/
+
+
+function Calc(Num1,Num2,Num3){
+  return Num1+Num2+Num3;
+}
+console.log(Calc(10,20,30))
+
+
+
+
+
+
+function calc(...numbers){
+  let result=0;
+  for(let i=0;i<numbers.length;i++){
+result+=numbers[i];
+  }
+  return `The final resutlt is ${result}`
+}
+console.log(calc(10,20,30,50,70))

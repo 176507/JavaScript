@@ -1,0 +1,21 @@
+  Function
+  - Default Function Parameters
+  - Function Parameters Default [Undefined]
+  - Old Strategies [Condition + Logical Or]
+  - ES6 Method
+*/
+
+
+
+
+
+function SayHello(UserName="Unknown",age="Unknown"){
+  // if(age===undefined){
+  //   age="Unknown";  
+
+  // }
+  // age=age || "Unknown"
+  return `Hello ${UserName} Your Age Is ${age}`
+}
+
+console.log(SayHello())

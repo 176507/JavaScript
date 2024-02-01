@@ -1,0 +1,28 @@
+/*
+  Function Advanced Examples
+*/
+
+
+
+function SayHello(UserName, age){
+  if(age < 20){
+    console.log(`these app is not suitable for you`)
+  }
+  else{
+    console.log(`Hello ${UserName} Your age is ${age}`)
+  }
+}
+
+SayHello("Osama",38);
+SayHello("ALi",13)
+
+
+
+
+function GenerateYears(start,end){
+  for(let i=start;i<=end;i++){
+    console.log(i)
+  }
+
+}
+GenerateYears(1985,2023)
