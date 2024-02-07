@@ -1,4 +1,4 @@
-
+		
 
 /*
   Function
@@ -23,7 +23,7 @@ console.log(print())
 
 
 
-pattern synatx Number Two : with Only one statement you can use : to delete parctice and return of function
+pattern synatx Number Three : with Only one statement you can use : to delete parctice and return of function
 let print=num=>num;
 
    

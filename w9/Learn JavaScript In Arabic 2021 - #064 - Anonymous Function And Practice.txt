@@ -19,7 +19,7 @@ when make function in variable it must be without name
  }
  console.log(calcutlator(20,10))
 
-Exables for using anonymous Function:
+Exambles for using anonymous Function:
 
 
 in HTML page :

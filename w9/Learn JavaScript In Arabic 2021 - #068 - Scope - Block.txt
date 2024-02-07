@@ -1,0 +1,28 @@
+
+
+/*
+  Scope
+  - Block Scope [If, Switch, For]
+*/
+
+
+
+  to declear variable with "var"  : it will make global variable  so  it might make override from varibale in block od code  
+
+Examble:
+
+ var x=10;
+   if(10===10){
+     var  x=50;
+   }
+   console.log(x) x= 50 ( the variabl in the block code make overide on the variable ouside blok  code
+
+to declear variable with "let": variable in the block of code will override on other varable outside block of code 
+
+Examble:
+   var x=10;
+   if(10===10){
+     let x=50;  
+   }
+   console.log(x)x=10 	  variable in the blcok of code will not override on ather varable outside block of code 
+

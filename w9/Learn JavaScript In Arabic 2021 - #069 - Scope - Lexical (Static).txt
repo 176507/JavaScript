@@ -1,0 +1,85 @@
+
+
+
+/*
+  Scope
+  - Lexical Scope
+
+  Search
+  - Execution Context
+  - Lexical Environment
+*/
+
+
+in nested function child function can access varaible in parent child 
+Examble:
+
+ function parent(){
+    let x=30;
+    function child(){
+      console.log(x)
+    }
+    child();
+  }
+
+  parent();   x=30  ( variable value in the parent function)
+
+
+
+in nested function child function will access varaible in it is block of code first  before varaible in parent child 
+
+Examble:
+  function parent(){
+    let x=30;
+    function child(){
+      let x=50;
+      console.log(x)
+    }
+    child();
+  }
+
+  parent();   x= 50  ( local variable in the block code of child function)
+
+
+in nested function child function will access varaible in global scope if no vaiable  in local scope
+
+Examle:
+  let x=30;
+  function parent(){
+   
+    function child(){
+      
+      console.log(x)
+    }
+    child();
+  }
+
+  parent();  x= 30 ( variable in global scope )
+
+
+ arrange of access vailbel
+
+- local  scope in child function
+- local  scope in   parent function
+-global scope 
+
+
+parant function can not access varaible inside function  
+Examle:
+ function parent(){
+    let x=30;
+    function child(){
+      console.log(`from grand function ${b}`)
+      function grand(){
+        let b=70;
+        console.log(`from grand function ${x}`)
+        console.log(`from grand function ${b}`)
+      }
+      grand();
+      
+      console.log(x)
+    }
+    child();
+  }
+
+  parent();
