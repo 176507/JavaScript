@@ -1,0 +1,39 @@
+/*
+  Object
+  - Dig Deeper
+  - Dot Notation vs Bracket Notation
+  - Dynamic Property Name
+*/
+
+
+
+
+--we use  Dot Notation to make Direct Access to proparties(Object Between parice) inside opject
+
+
+ let user={
+  theName:"Mohamed Samir",
+  "country of":"Egypt"
+  
+ };
+
+//  console.log(user.theName);
+
+
+console.log(user["theName"])
+ console.log(user[ "country of"])
+
+
+
+=--we must  use Bracket Notation to make access on properties inside object throw variable;
+
+let myVar="country";
+let User={
+  theName: "Mohamed Samir",
+  country:"Egypt"
+}
+// console.log(User["country"])
+console.log(User[myVar]);
+// console.log(User.myVar)
+
+ 	

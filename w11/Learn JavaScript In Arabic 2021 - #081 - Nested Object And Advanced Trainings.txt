@@ -1,0 +1,43 @@
+
+/*
+  Object
+  - Nested Object And Trainings
+*/
+
+
+
+
+
+
+let avilable=true;
+let user ={
+  name:"Osama Maher",
+  age:38,
+  skills:["HTML","css","JS"],
+  avilable:false,
+  adresses:{
+    KSA:"Makaa",
+    Egypt:{
+    one:"cairo",
+    two:"Alex"
+    },
+  },
+ check: function(){
+  if(user.avilable===true){
+    return `Free For work`
+
+  }else
+  return `Not Free for work`
+ }
+  
+}
+console.log(user.name);
+console.log(user.age);
+console.log(user.skills.join("|"))
+console.log(user.skills[2])
+// console.log(user.adresses)
+// console.log(user.adresses.KSA)
+// console.log(user.adresses.Egypt.one)
+console.log(user["adresses"])
+console.log(user["adresses"]["Egypt"]["one"])
+console.log(user.check())

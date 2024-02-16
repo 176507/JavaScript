@@ -1,0 +1,31 @@
+/*
+  Object
+  - Create Object With Create Method
+*/
+
+
+
+let use={
+  age:40,
+  doubleage:function(){
+    return this.age*2
+  }
+}
+
+console.log(use);
+console.log(use.age);
+console.log(use.doubleage())
+
+
+
+// let obj=Object.create({})
+// obj.a=100;
+// console.log(obj.a)
+
+// let copyobj=Object.create(use);
+// copyobj.age=50;
+// console.log(copyobj);
+// console.log(copyobj.age);
+// console.log(copyobj.doubleage())
+
+

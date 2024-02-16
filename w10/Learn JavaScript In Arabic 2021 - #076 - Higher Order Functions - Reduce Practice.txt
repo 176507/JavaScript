@@ -1,0 +1,36 @@
+/*
+  Reduce
+  - Longest Word
+  - Remove Characters + Use Reduce
+*/
+
+
+let theBiggest = ["Bla", "Propaganda", "Other", "AAA", "Battery", "Test", "Propaganda_Two"];
+
+let a;
+ let check=theBiggest.reduce(function(acc,current){
+  if (acc.length>current.length){
+    a=acc;
+
+  }else{
+    a=current
+  }
+  return a;
+ })
+
+ console.log(check)
+
+
+
+let removeChars = ["E", "@", "@", "L", "Z", "@", "@", "E", "R", "@", "O"];
+
+let remove=removeChars.filter(function(ele){
+  return ! ele.startsWith("@")
+})
+.reduce(function(acc,current){
+  return `${acc}${current}`
+})
+
+console.log(`${remove}`)
+
+

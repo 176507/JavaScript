@@ -1,0 +1,36 @@
+
+
+
+/*
+  Object
+  - Create With New Keyword new Object();
+*/
+
+
+
+
+let user={
+  age:20
+};
+console.log(user);
+
+user.name="Mohamed Samir";
+user.age=38;
+user.sayhello=function(){
+  return`Hello`
+}
+user["country"]="Egypt"
+console.log(user.name);
+console.log(user.age);
+console.log(user.country)
+console.log(user.sayhello()
+
+
+//create With New Keyword new Object
+let user=new Object();
+
+
+//create With New Keyword new Object
+let user=new Object({
+  age:20
+});

@@ -1,0 +1,41 @@
+/*
+  Map
+  - Swap Cases
+  - Inverted Numbers
+  - Ignore Boolean Value
+*/
+
+
+
+
+
+let swappingCases = "elZERo";
+let invertedNumbers = [1, -10, -20, 15, 100, -30];
+let ignoreNumbers = "Elz123er4o";
+
+let mo_one=swappingCases.split("").map(function(ele){
+  let a;
+  if(ele===ele.toLowerCase()){
+    a=ele.toUpperCase();
+  }else{
+    a=ele.toLowerCase();
+  }
+  return a;
+})
+
+console.log(mo_one.join(""))
+
+
+let mo_two=invertedNumbers.map(function(ele){
+  return -ele;
+},10);
+console.log(mo_two)
+
+let mo_three=ignoreNumbers.split("").map(function(ele){
+  let b;
+  if(isNaN(ele)===true){
+    b=ele;
+  }
+  return b;
+})
+console.log(mo_three.join(""))

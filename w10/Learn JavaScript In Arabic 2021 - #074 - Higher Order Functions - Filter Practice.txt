@@ -1,0 +1,45 @@
+/*
+  Filter
+  - Filter Longest Word By Number
+*/
+
+// Filter Words More Than 4 Characters
+
+
+
+// Filter Words More Than 4 Characters
+// let sentence = "I Love Foood Code Too Playing Much";
+
+// let smaillsen=ntense=sentence.split(" ").filter(function(ele){
+//   return ele.length<=4;
+// })
+// .join(" ");
+// console.log(smaillsen)
+
+
+
+// Ignore Numbers
+let ignoreNumbers = "Elz123er4o";
+
+let mo=ignoreNumbers.split("").filter(function(ele){
+return isNaN(ele);
+})
+.join("");
+console.log(mo)
+
+
+
+// Filter Strings + Multiply
+// let mix = "A13BS2ZX";
+
+// let mo_two=mix.split("").filter(function(ele){
+//   return parseInt(ele);
+// })
+// .map(function(el){
+//   return el *el;
+// })
+// .join("");
+// console.log(`${mo_two}`)
+
+
+
